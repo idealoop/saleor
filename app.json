@@ -17,7 +17,11 @@
     "NPM_CONFIG_PRODUCTION": "false",
     "ALLOWED_HOSTS": {
       "description": "Comma-separated list of hosts",
-      "value": ".herokuapp.com"
+      "value": ".herokuapp.com, *"
+    },
+    "ALLOWED_CLIENT_HOSTS": {
+      "description": "Comma-separated list of client hosts",
+      "value": ".herokuapp.com, *"
     },
     "DEFAULT_FROM_EMAIL": "noreply@example.com",
     "SECRET_KEY": {
